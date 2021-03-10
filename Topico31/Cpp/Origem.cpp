@@ -1,0 +1,46 @@
+#include "opencv/highgui.h"
+#include "opencv2/opencv.hpp"
+
+using namespace std;
+using namespace cv;
+
+int main(void) {
+	Mat img;
+	Mat img_gray;
+	Mat img_Canny;
+
+	vector<vector<Point>> contours;
+
+
+	//Step 1 
+	img = imread("image.jpg", 1);
+
+	cvtColor(img, img_gray, CV_BGR2GRAY);
+
+	Canny(img_gray, img_Canny, 100, 255);
+
+	findContours(img_Canny, contours, RETR_EXTERNAL, CHAIN_APPROX_NONE);
+
+
+	//Step 2
+	vector<vector<Point>> contours_poly(contours.size());
+	vector<Rect> Object_box(contours.size());
+
+	for (int i = 0; i < contours.size(); i++) {
+		approxPolyDP(Mat(contours[i]), contours_poly[i], 1, true);
+		Object_box[i] = boundingRect(contours_poly[i]);
+		cout <<" Object " <<i<<": "<< Object_box[i] << endl;
+	}
+
+
+	cvtColor(img_Canny, img_Canny, CV_GRAY2BGR);
+
+	for (int i = 0; i < contours.size(); i++) {
+		rectangle(img_Canny , Object_box[i], Scalar(0, 0, 255),3);
+	}
+	
+
+	imshow("Output Image", img_Canny);
+	imshow("Input Image", img);
+	waitKey(0);
+}
