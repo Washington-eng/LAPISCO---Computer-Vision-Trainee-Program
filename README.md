@@ -1,3 +1,4 @@
+![Lapisco](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/blob/main/Lapisco.jpg)
 ## LAPISCO - Computer-Vision-Trainee-Program
 
 ### Informações
