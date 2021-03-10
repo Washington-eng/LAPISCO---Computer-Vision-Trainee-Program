@@ -3,7 +3,7 @@
 ## LAPISCO - Computer-Vision-Trainee-Program
 
 ### Informações
--Implementação em C/C++
+-Implementação em C/C++ e Python.
 
 ### Lista de questões
 | Problema | Descrição |
