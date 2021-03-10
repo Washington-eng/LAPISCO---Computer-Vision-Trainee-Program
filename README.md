@@ -8,11 +8,11 @@
 ### Lista de questões
 | Problema | Descrição |
 | ------------- |:-------------|
-| [01](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico01)|Abrir uma imagem colorida, visualizar e salvar.|
-| 2 |Abrir uma imagem colorida, transformar em níveis de cinza, visualizar e salvar imagem gerada.|
-| 3 |Abrir uma imagem colorida em RGB, visualizar e salvar cada um dos canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
-|4|Abrir  uma  imagem  colorida,  transformar  em  HSV,  visualizar  e  salvar  cada  um  dos  canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
-|5|Abrir uma imagem colorida, transformar em tom de cinza, visualizar imagem de entrada. Apliquem os  filtros  passa  baixa  mediana  (cv_median)  e  media (cv_blur),  visualizem  os  resultados e salvem.  Obs: Busquem compreender os resultados de cada filtro.|
+|[01](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico01)|Abrir uma imagem colorida, visualizar e salvar.|
+|[02](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico02) |Abrir uma imagem colorida, transformar em níveis de cinza, visualizar e salvar imagem gerada.|
+|[03](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico03) |Abrir uma imagem colorida em RGB, visualizar e salvar cada um dos canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
+|[04](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico04)|Abrir  uma  imagem  colorida,  transformar  em  HSV,  visualizar  e  salvar  cada  um  dos  canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
+|[05](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico05)|Abrir uma imagem colorida, transformar em tom de cinza, visualizar imagem de entrada. Apliquem os  filtros  passa  baixa  mediana  (cv_median)  e  media (cv_blur),  visualizem  os  resultados e salvem.  Obs: Busquem compreender os resultados de cada filtro.|
 6|Abrir uma imagem colorida, transformar em tom de cinza, visualizar imagem de entrada. Apliquem os filtros passa alta de canny (cv_canny), visualizem os resultados e salvem. Obs: Busquem compreender os  resultados do filtro.|
 |7|Abrir uma imagem colorida, transformar em tom de cinza, visualizar imagem de entrada. Apliquem uma limiarização (thresholding), visualizem os resultados e salvem. Obs: Busquem compreender os resultados da técnica.|
 |8|Abrir uma imagem colorida, transformar em tom de cinza, visualizar imagem de entrada. Apliquem um redimensionamento da imagem, reduzindo e depois aumentando seu tamanho, visualizem os resultados e salvem. Obs: uma imagem 320x240 deve virar uma 160x120 em primeiro caso e 640x480 em segundo caso. |
