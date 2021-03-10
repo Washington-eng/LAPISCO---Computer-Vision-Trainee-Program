@@ -8,7 +8,7 @@
 ### Lista de questões
 | Problema | Descrição |
 | ------------- |:-------------|
-| 1 |Abrir uma imagem colorida, visualizar e salvar.|
+| [01](https://github.com/Washington-eng/LAPISCO---Computer-Vision-Trainee-Program/tree/main/Topico01)|Abrir uma imagem colorida, visualizar e salvar.|
 | 2 |Abrir uma imagem colorida, transformar em níveis de cinza, visualizar e salvar imagem gerada.|
 | 3 |Abrir uma imagem colorida em RGB, visualizar e salvar cada um dos canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
 |4|Abrir  uma  imagem  colorida,  transformar  em  HSV,  visualizar  e  salvar  cada  um  dos  canais separadamente. Obs: Busquem compreender o que significa cada um dos canais.|
